@@ -1,0 +1,5 @@
+a = input('Digite algo:')
+print('É um numero?',a.isnumeric())
+print('É uma letra ou palavra?',a.isalpha())
+print('É digitado em maíusculo?',a.isupper())
+print('É um numero real?',a.isdecimal())
